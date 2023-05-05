@@ -5,10 +5,11 @@
 }
 
 body {
-    display: inline;
+    display: side by side;
     background-color: #d9dcd6;
     background-origin: padding-box;
     border-width: 20px;
+    padding-bottom: auto;
 }
 
 .header {
@@ -37,11 +38,16 @@ body {
 
 .header div ul {
     list-style-type: side by side;
+    display: block;
+    background-color: #0072bb;
+    padding-bottom: 0cqmin;
 }
 
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
+    background-color: #0072bb;
+    padding-bottom: 0cqmin;
 }
 
 a {
@@ -90,49 +96,60 @@ p {
 }
 
 .benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-    border: 10px;;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
+    margin-bottom: 40px;
+    padding: auto;
     color: #ffffff;
     border: 10px;
     display: block;
 }
 
+.benefit-brand {
+    margin-bottom: 40px;
+    color: #ffffff;
+    padding: auto;
+    border: 10px;
+    display: block;
+}
+
 .benefit-cost {
-    margin-bottom: 32px;
+    margin-aside: 32px;
+    padding: auto;
     color: #ffffff;
     display: block;
 }border: 10px;
 
 .benefit-lead h3 {
-    margin-bottom: 10px;
+    margin-aside: 25px;
     text-align: center;
+    display: block;
+    padding: auto;
 }
 
 .benefit-brand h3 {
-    margin-bottom: 10px;
+    margin-bottom: 25px;
     text-align: center;
+    display: flex;
+    padding: auto;
 }
 
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
+    padding: auto;
 }
 
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
+    padding: auto;
 }
 
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
+    padding: auto;
 }
 
 .benefit-cost img {
@@ -143,6 +160,7 @@ p {
 
 .search-engine-optimization {
     margin-bottom: 20px;
+    border: auto;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -151,7 +169,7 @@ p {
 }
 
 .online-reputation-management {
-    margin-bottom: 20px;
+    margin-bottom: 48px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -160,7 +178,7 @@ p {
 }
 
 .social-media-marketing {
-    margin-bottom: 20px;
+    margin-bottom: 35px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
