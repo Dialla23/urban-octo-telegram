@@ -1,11 +1,13 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+    box-sizing: border-box solid;
+    padding: 20px;
+    margin: 15px;
 }
 
 body {
     background-color: #d9dcd6;
+    background-origin: padding-box;
+    border-width: 0ch;
 }
 
 .header {
@@ -16,11 +18,11 @@ body {
 }
 
 .header h1 {
-    display: inline-block;
+    display: side by side-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+.header h1 .Horiseon {
     color: #d9dcd6;
 }
 
@@ -33,7 +35,7 @@ body {
 }
 
 .header div ul {
-    list-style-type: none;
+    list-style-type: side by side;
 }
 
 .header div ul li {
@@ -187,7 +189,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+h2
 .footer {
     padding: 30px;
     clear: both;
@@ -195,6 +197,6 @@ p {
     text-align: center;
 }
 
-.footer h2 {
+.footer {
     font-size: 20px;
 }
